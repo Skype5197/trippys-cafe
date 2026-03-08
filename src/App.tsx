@@ -10,7 +10,7 @@ import Gallery from "./pages/Gallery";
 import Auth from "./pages/Auth";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
-import HoverReceiver from "@/visual-edits/VisualEditsMessenger";
+
 
 const queryClient = new QueryClient();
 
@@ -20,7 +20,7 @@ const App = () => (
       <AuthProvider>
         <Toaster />
         <Sonner />
-        <HoverReceiver />
+
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
